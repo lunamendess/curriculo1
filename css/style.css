@@ -1,0 +1,103 @@
+ body {
+   background-color: black;
+   font-style: italic;
+   text-align: center;
+   color: black;
+   background-image: url();
+   background-repeat: no-repeat;
+   background-size: cover;
+ }
+ 
+ section {
+text-align: center;
+ }
+ div{
+      color: white;
+      text-align: center;
+      font-style: italic
+    }
+
+ h1 {
+   color: white;
+   text-align: center;
+   font-style: italic
+ }
+h2 {
+  color: white;
+  text-align: center;
+  font-style: italic
+}
+ p {
+   color: white;
+   text-align: left;
+   font-size: 20px;
+ }
+
+ div.box {
+   width: 500px;
+   display: inline-block;
+  border: 2px solid white;
+   font-style: italic;
+   margin-left: 50px;
+   margin-right: 50px;
+   margin-top: 20px;
+ }
+
+ div {
+   text-align: right;
+ }
+
+ span {
+   color: white;
+   text-align: left;
+   font-style: italic
+ }
+
+ a {
+   color: white;
+   text-align: center;
+   font-size: 30px;
+   font-style: italic
+ }
+
+ .topnav {
+   overflow: hidden;
+   background-color: #333;
+ }
+
+ .topnav a {
+   float: left;
+   color: #f2f2f2;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+   font-size: 17px;
+ }
+
+ .topnav a:hover {
+   background-color: #ddd;
+   color: black;
+ }
+
+ .topnav a.active {
+   background-color: #04AA6D;
+   color: white;
+ }
+.imagem-responsiva {
+    width: 100%;
+    height: auto;
+} 
+.box{
+    color: #fff;
+    border: 2px solid white;
+    background-color: black;
+    box-shadow: 0 2px 2px rgba(0,0,0,0.35);
+    transition: transform 0.6s ease-in-out;  
+    transition: box-shadow 0.2s ease-in-out;
+}
+.box:hover {
+    border: 10px solid black;
+    transform: scale(1.5); 
+    box-shadow: 0 5px 15px rgba(0,0,0,0.6);
+}
+   
